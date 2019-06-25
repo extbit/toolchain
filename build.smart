@@ -1,0 +1,18 @@
+project
+
+files (
+    (\
+    clang clang++ \
+    llvm-ar llvm-link llvm-nm \
+    llvm-objcopy llvm-objdump \
+    llvm-strip \
+    lldb) ⇒ $(CWD)/bin
+)
+
+AR := $(file llvm-ar)
+CC := $(file clang)
+CXX := $(file clang++)
+LD := $(file llvm-ld)
+OBJCOPY := $(file llvm-objcopy)
+OBJDUMP := $(file llvm-objdump)
+STRIP := $(file llvm-strip)
