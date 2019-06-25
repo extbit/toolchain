@@ -43,5 +43,6 @@ TODOS
 Known Issues
 ------------
 
-(Known issues to be listed, if you found any, please submit it to us.)
+(Known issues to be listed, if you found any, please
+[submit](https://github.com/extbit/toolchain/issues) it to us.)
 
