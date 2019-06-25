@@ -1,14 +1,13 @@
 project
 
 files (
-    (\
-    clang clang++ \
-    llvm-ar llvm-link llvm-nm \
-    llvm-objcopy llvm-objdump \
-    llvm-strip \
-    lldb) ⇒ $(CWD)/bin
+    (clang clang++ \
+     llvm-ar llvm-link llvm-nm \
+     llvm-objcopy llvm-objdump \
+     llvm-strip lldb) ⇒ $(CWD)/bin
 )
 
+# Tools for building C/C++ programs/libraries.
 AR := $(file llvm-ar)
 CC := $(file clang)
 CXX := $(file clang++)
@@ -16,3 +15,12 @@ LD := $(file llvm-ld)
 OBJCOPY := $(file llvm-objcopy)
 OBJDUMP := $(file llvm-objdump)
 STRIP := $(file llvm-strip)
+
+# Command flags for C/C++ compilation
+ARFLAGS :=
+CFLAGS :=
+CXXFLAGS :=
+LDFLAGS :=
+LDLIBS :=
+LOADLIBS :=
+
