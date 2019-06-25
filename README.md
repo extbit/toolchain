@@ -1,6 +1,6 @@
 # Toolchain for ExtBit Projects
 
-The toolchain includes `clang` (well tweaked for ExtBit development) and
+The toolchain includes `clang` (well tweaked for ExtBit) and
 utilities for developing apps working with the ExtBit network.
 
 Specification
@@ -45,4 +45,3 @@ Known Issues
 
 (Known issues to be listed, if you found any, please
 [submit it](https://github.com/extbit/toolchain/issues/new).)
-
