@@ -12,8 +12,8 @@ Latest version:
 
 Languages:
 
-* C17
-* C++2a
+* C17 (clang)
+* C++2a (clang++)
 
 Architectures:
 
