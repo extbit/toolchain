@@ -1,7 +1,7 @@
 # Toolchain for ExtBit Projects
 
-The toolchain includes `clang` and utilities for developing apps
-working with the ExtBit network.
+The toolchain includes `clang` (well tweaked for ExtBit development) and
+utilities for developing apps working with the ExtBit network.
 
 Specification
 -------------
@@ -36,7 +36,7 @@ the first **pre-release**, no production version release yet.
 TODOS
 -----
 
-* Other operating systems
+* Other operating systems:
   * Linux distros, OpenBSD, Windows, Android, etc.
 * New language design for blockchain apps.
 
