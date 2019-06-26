@@ -52,7 +52,7 @@ TODOS
 
 * Other operating systems:
   * Linux distros, OpenBSD, Windows, Android, etc.
-* New language design for blockchain apps.
+* New language designed for blockchain apps.
 
 Known Issues
 ============
