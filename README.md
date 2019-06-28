@@ -14,13 +14,13 @@ Purpose
 * Network branded compilation (verified production)
 * Ease software construction process with [smart](https://github.com/extbit/smart)
 
+Latest
+------
+
+* [v0.0.1-alpha](https://github.com/extbit/toolchain/releases/tag/v0.0.1-alpha)
+
 Specification
 =============
-
-Latest version:
---------------
-
-* v0.0.1-alpha (pre-release)
 
 Languages:
 ----------
