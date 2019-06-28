@@ -10,42 +10,53 @@ Purpose
 * Minimize the OS differences
 * Common compilation environment
 * Cross compilation (experimental)
-* Network branded compilation (verified)
+* Universal execution on different platforms (TODO)
+* Network branded compilation (verified production)
+* Ease software construction process with [smart](https://github.com/extbit/smart)
 
 Specification
 =============
 
 Latest version:
+--------------
 
 * v0.0.1-alpha (pre-release)
 
 Languages:
+----------
 
 * C17 (clang)
 * C++2a (clang++)
 * experimental new language(s) (in progress)
 
 Operating systems:
+------------------
 
 * MacOSX (darwin)
 * Linux/*nix (TODO)
 * Windows (TODO)
 
 Architectures:
+--------------
 
 * X86_64
 * ARM/ARM64 (TODO)
 * MIPS/MIPS64 (TODO)
 * WebAssembly (experimental)
+* ExtBit specific arch (TODO)
 
-Versioning (experimental)
-==========
+Released Versions
+=================
 
-The version number `v0.0.1` has three parts of digits, **major version**,
-**minor version** and **patch version**.
+The version number `v0.0.1` has three parts, **major version**,
+**minor version** and **patch version**. The patch number change normally
+indicates bugfix or patching release. The minor number change normally
+indicates usefull improvement without changing major features. The major
+number change indicates an important feature upgrade.
 
-The patch numver changes indicate **pre-release** version. That `v0.0.1` is
-the first **pre-release**, no production version release yet.
+That `v0.0.1-alpha` is the first alpha release.
+
+* [v0.0.1-alpha](https://github.com/extbit/toolchain/releases/tag/v0.0.1-alpha)
 
 TODOS
 =====
@@ -57,4 +68,4 @@ TODOS
 Known Issues
 ============
 
-Please [submit known issues](https://github.com/extbit/toolchain/issues/new).
+Please [submit your issues](https://github.com/extbit/toolchain/issues/new).
